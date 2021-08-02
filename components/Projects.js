@@ -10,21 +10,24 @@ function Projects () {
 
     return (
         <Container>
-            <h1>Project</h1>
+            {/* <h1>Project</h1> */}
             <Project>
             <Project1>
                 <Title>SANTA - 등산은산타😎</Title>
                 <Grid>
                 <ImgGrid><Image src={project1}></Image></ImgGrid>
                     <Text>
+                    <a href="http://www.santa-mountain.com">→ 산타 바로가기</a> <br/>
+                    <a href="https://youtu.be/jELf9Zxg8Ss">→ 산타 시연영상</a> <br/>
+                    <a href="https://github.com/MyoungSeob/SANTA">→ 산타 GitHub</a>
                         <p>SANTA는 혼자서는 가기는 애매하고, 지인들은 바빠서 등산을 망설이시는 분들을 위한 등산메이트를 구할 수 있는 서비스입니다! 
                             등산 모임을 주최하면 신청자 수락/거절이 가능하며, 참여자로서 등산모임에 신청/취소가 가능합니다. 
                             참여했던 모임에 한해서 후기글도 남길 수 있습니다. 
                             이번 프로젝트를 통해 백엔드, 디자이너와 협업 능력을 기를 수 있었습니다.</p>
                         <p>
-                        <li>개발기간: 2021.04.28 - 2021.05.12</li>
-                        <li>프로젝트 주제: 등산 메이트 커뮤니티</li>
-                        <li>개발 인원: 프론트엔드 2, 백엔드(spring) 2, 디자이너(UI/UX Wireframe) 2</li>
+                        - 개발기간: 2021.04.28 - 2021.05.12  <br/>
+                        - 프로젝트 주제: 등산 메이트 커뮤니티  <br/>
+                        - 개발 인원: 프론트엔드 2, 백엔드(spring) 2, 디자이너(UI/UX Wireframe) 2
                         </p>
                         <p>
                         ✨ 소셜로그인 ✔️<br />
