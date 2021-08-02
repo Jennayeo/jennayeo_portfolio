@@ -10,7 +10,7 @@ import github from '../shared/Icons/github.png';
 function about() {
     return (
         <Container>
-            <h1>About</h1>
+            {/* <h1>About</h1> */}
             <Title>
                 "월요일이 설레는 주니어 개발자 여지영입니다!"
             </Title>
@@ -42,6 +42,7 @@ function about() {
 
     `;
     const Title = styled.div`
+        margin-top: 50px;
         font-family: NanumBrushScript-Regular;
         font-size: 3vw;
     `;
